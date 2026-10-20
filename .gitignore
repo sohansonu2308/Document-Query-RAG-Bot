@@ -21,3 +21,7 @@ data/processed/*
 
 postgres-data/
 redis-data/
+
+# Personal learning notes and local-only study UI.
+docs/RAG_STUDY_GUIDE.md
+apps/web/app/study-guide/
