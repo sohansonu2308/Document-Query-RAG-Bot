@@ -1,6 +1,7 @@
 .env
 .env.*
 !.env.example
+.opencode/
 
 node_modules/
 .next/

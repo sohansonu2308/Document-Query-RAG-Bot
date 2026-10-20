@@ -11,14 +11,6 @@ and knowledge graphs.
 - `data/uploads` — local source documents (ignored by Git)
 - `data/processed` — generated extraction/index artifacts (ignored by Git)
 - `docker-compose.yml` — PostgreSQL with pgvector and Redis for local services
-- `docs/RAG_STUDY_GUIDE.md` — zero-to-hero RAG learning and interview guide
-
-The interactive study experience is available in the web app:
-
-- `http://localhost:3000/study-guide` — guided lessons, Mermaid diagrams,
-  progress tracking, retrieval-weight lab, and flashcards
-- `http://localhost:3000/study-guide/reference` — searchable full reference and
-  30 interview questions
 
 The first retrieval slice is now connected: upload UTF-8 text documents, persist
 their extracted chunks and local embeddings in PostgreSQL/pgvector, retrieve
